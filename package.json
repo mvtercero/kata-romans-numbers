@@ -1,0 +1,24 @@
+{
+  "name": "kata-romans-numbers",
+  "version": "1.0.0",
+  "description": "kata-romans-numbers",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvtercero/kata-romans-numbers.git"
+  },
+  "keywords": [
+    "jest",
+    "tdd",
+    "kata"
+  ],
+  "author": "María Vedia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvtercero/kata-romans-numbers/issues"
+  },
+  "homepage": "https://github.com/mvtercero/kata-romans-numbers#readme"
+}
