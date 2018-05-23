@@ -1,4 +1,4 @@
-function RomanNumerals() {
+function application() {
     var numeral = function(value, numeral) {
         return {value: value, numeral: numeral};
     };
@@ -32,7 +32,8 @@ function RomanNumerals() {
 
     return {
         number: Number,
-    }
+    };
     
-};
+}
 
+    module.exports = application;
