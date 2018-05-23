@@ -1,12 +1,18 @@
 var RomanNumerals = function () {};
 
-RomanNumerals.prototype.fromNumber = function(n) {
-    
-    var result = "";
-    while (n > 0) {
-        result += "I";
-        -- n;
-    }
+var numerals = [
+    {value: 4, numeral: "IV"},
+    {value: 1, numeral: "I"}
+];
+
+RomanNumerals.prototype.fromNumber = function(number) {
+    result = "";
+    numerals.forEach(function (item) {
+        if (number >= item.value) {
+            result += item.numeral;
+            number -= item.value;
+        }
+    });
 
     return result;
 };
